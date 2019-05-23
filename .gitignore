@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Compiled Terraform files
+.terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Packaged code
+*.zip
+
+# Mac-specific files
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
